@@ -68,5 +68,25 @@ message.reply('For CFW please use https://3ds.guide/');
         	}
     });
 
+client.on('message', message => {
+    if (message.content === '.help') {
+message.reply('The command explanations are pinned in #faq-room.');
+        	}
+});
+
+client.on('message', message => {
+    if (message.content === '.info') {
+message.reply('This bot was created for the Galaxy Translation server.');
+        	}
+});
+
+client.on('message', message => {
+    if (message.content === '.progress') {
+message.reply('Please check #updates.');
+        	}
+});
+
+
+
 // THIS  MUST  BE  THIS  WAY
 client.login(process.env.BOT_TOKEN);
