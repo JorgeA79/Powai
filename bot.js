@@ -62,5 +62,11 @@ message.reply('Usage of nicknames is permitted in this server. Please do not use
         	}
     });
 
+client.on('message', message => {
+    if (message.content === '.FaQ1') {
+message.reply('For CFW please use https://3ds.guide/');
+        	}
+    });
+
 // THIS  MUST  BE  THIS  WAY
 client.login(process.env.BOT_TOKEN);
