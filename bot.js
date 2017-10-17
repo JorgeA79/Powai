@@ -9,12 +9,15 @@ client.on('message', message => {
     if (message.content === '.ping') {
 message.reply('pong');
         
+  	}
+});
+
 client.on('message', message => {
     if (message.content === '.r1') {
 message.reply('Be respectful to everyone. All discussions should be kept civil and polite.');
-        
-  	}
+        	}
 });
+        
 
 // THIS  MUST  BE  THIS  WAY
 client.login(process.env.BOT_TOKEN);
