@@ -31,7 +31,13 @@ client.on('message', message => {
     }
     message.reply('Hello xd');
 });
-
+client.on('message', message =>{
+    if (message.content === 'j.ping'){
+        break;
+    }
+}
+          message.reply('pong');
+});
 
 
 // THIS  MUST  BE  THIS  WAY
