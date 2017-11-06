@@ -29,7 +29,7 @@ client.on('message', message => {
             break;
         }
     }
-    message.reply(commands[i]);
+    message.reply('Hello xd');
 });
 
 
