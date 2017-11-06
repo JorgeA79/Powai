@@ -6,10 +6,10 @@ client.on('ready', () => {
 });
 
 var commands = {
-    hello:'Hi!',
-    xd:'xd',
-     ping:'Pong ',
-    uvuvuvuvuvuvuvu:'I dont understand can you repeat!! :hushed: '
+    hello: 'Hi!',
+    xd: 'xd',
+    ping: 'Pong',
+    uvuvuvuvuvuvuvu: 'I dont understand can you repeat!! :hushed:'
 };
 
 client.on('message', message => {
