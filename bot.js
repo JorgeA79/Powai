@@ -7,7 +7,7 @@ client.on('ready', () => {
 
 var commands = {
     r1: 'Be respectful to everyone. All discussions should be kept civil and polite.',
-    r2: 'No NSFW/R18+ content please.',
+    r2: 'No talking about emoji music.',
     r3: 'No usage of any slurs that will cause offence to others.',
     r4: 'Profanity is fine. However, avoid using it in excess to the point it makes other members feel uncomfortable.',
     r5: 'Keep ALL discussions in the relevant channel they best belong to.',
@@ -29,7 +29,7 @@ client.on('message', message => {
             break;
         }
     }
-    message.reply('Hello xd');
+    message.reply(commands[i]);
 });
 
 
