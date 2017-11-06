@@ -6,8 +6,8 @@ client.on('ready', () => {
 });
 
 var commands = {
-   1:'hello',
-    2:'xd'
+   hello:'hello',
+    xd:'xd'
 };
 
 client.on('message', message => {
