@@ -12,7 +12,7 @@ var commands = {
 };
 
 client.on('message', message => {
-    if (message.content.substr(0, 2) !== '.') {
+    if (message.content.substr(0, 1) !== '.') {
         return;
     }
     for (var i in commands) {
