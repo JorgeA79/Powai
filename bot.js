@@ -21,7 +21,7 @@ var commands = {
 };
 
 client.on('message', message => {
-    if (message.content.substr(0, 1) !== '.') {
+    if (message.content.substr(0, 1) !== 'j.') {
         return;
     }
     for (var i in commands) {
