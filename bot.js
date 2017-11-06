@@ -25,7 +25,7 @@ client.on('message', message => {
         return;
     }
     for (var i in commands) {
-        if (message.content === '.hello') {
+        if (message.content === 'j.hello') {
             break;
         }
     }
