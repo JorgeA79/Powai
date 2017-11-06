@@ -27,4 +27,4 @@ client.on('message', message => {
 
 // THIS  MUST  BE  THIS  WAY
 client.login(process.env.BOT_TOKEN);
-
+await client.change_presence(game=discord.Game('xd'));
