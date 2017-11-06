@@ -33,9 +33,8 @@ client.on('message', message => {
 });
 client.on('message', message =>{
     if (message.content === 'j.ping'){
-        break;
-    }
-}
+   
+
           message.reply('pong');
 });
 
