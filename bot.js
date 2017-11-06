@@ -8,6 +8,7 @@ client.on('ready', () => {
 var commands = {
    hello:'hello',
     xd:'xd'
+    uvuvuvuvuvuvuvu:'I dont understand can you repeat!! :hushed: '
 };
 
 client.on('message', message => {
