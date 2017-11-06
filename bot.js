@@ -25,7 +25,7 @@ client.on('message', message => {
         return;
     }
     for (var i in commands) {
-        if (message.content === 'helloxd') {
+        if (message.content === '.' + commands[i]) {
             break;
         }
     }
