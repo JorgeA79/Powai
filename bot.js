@@ -6,7 +6,7 @@ client.on('ready', () => {
 });
 
 var commands = {
-   hello:'Hiii!!! :wave:',
+   hello:'Hi!:wave:',
     xd:'xd',
     uvuvuvuvuvuvuvu:'I dont understand can you repeat!! :hushed: '
 };
