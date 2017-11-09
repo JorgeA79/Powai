@@ -13,7 +13,7 @@ var answers = [
   "Wotcha",
   "Alright gov'nor"
 ]
-var randomAnswer = answers[Math.floor(Math.random() * answers.length)];
+
 client.on('message', message => {
 	if (message.author === client.user) return;
 	if (message.content.startsWith(prefix + 'ping')) {
@@ -62,6 +62,7 @@ client.on('message', message => {
 	if (message.content.startsWith(prefix + 'random')) {
 	
 		 message.channel.send(randomAnswer);
+		var randomAnswer = answers[Math.floor(Math.random() * answers.length)];
 	}
 });
 // THIS  MUST  BE  THIS  WAY
