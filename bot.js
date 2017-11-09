@@ -7,11 +7,11 @@ client.on('ready',() => {
 
 var prefix = "j."
 var answers = [
-   "http://i0.kym-cdn.com/photos/images/newsfeed/001/217/729/f9a.jpg",
-  "Howdy",
-  "Hello There",
-  "Wotcha",
-  "Alright gov'nor"	
+   "Hey!",
+  "Howdy!",
+  "Hello There!",
+  "Wotcha!",
+  "Alright gov'nor!"	
 ]
 
 client.on('message', message => {
@@ -25,7 +25,9 @@ client.on('message', message => {
 	if (message.author === client.user) return;
 	if (message.content.startsWith(prefix + 'hello')) {
 	
-		 message.channel.send(`Hello ${message.author.username}! :wave:`);
+		
+		var randomAnswer = answers[Math.floor(Math.random() * answers.length)];
+		 message.channel.send(randomAnswer `${message.author.username}! :wave:`);
 	}
 });
 client.on('message', message => {
@@ -47,8 +49,7 @@ client.on('message', message => {
 	if (message.author === client.user) return;
 	if (message.content.startsWith(prefix + 'killme')) {
 	
-		var randomAnswer = answers[Math.floor(Math.random() * answers.length)];
-		 message.channel.send(randomAnswer);
+		
 	}
 });
 client.on('message', message => {
