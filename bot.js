@@ -7,8 +7,11 @@ client.on('ready',() => {
 
 var prefix = "j."
 var answers = [
-  "https://www.google.com.mx/url?sa=i&rct=j&q=&esrc=s&source=images&cd=&cad=rja&uact=8&ved=0ahUKEwjkzsvFx7LXAhXEKGMKHWu6CKAQjRwIBw&url=http%3A%2F%2Fknowyourmeme.com%2Fphotos%2F1217729-roll-safe&psig=AOvVaw2ubpfGUvc0qgXUHG7A6msC&ust=1510353542295026",
-"http://o.aolcdn.com/hss/storage/midas/37e0050ee936a68e680564854b0c7fb5/201853233/putinmeme02.jpg"	
+   "Hey",
+  "Howdy",
+  "Hello There",
+  "Wotcha",
+  "Alright gov'nor"	
 ]
 
 client.on('message', message => {
