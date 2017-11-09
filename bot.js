@@ -22,9 +22,9 @@ client.on('message', message => {
 });
 client.on('message', message => {
 	if (message.author === client.user) return;
-	if (message.content.startsWith(prefix + 'help')) {
+	if (message.content.startsWith(prefix + 'dbs')) {
 	
-		 message.channel.send(`You need a little help with the commands:`);
+		 message.channel.send(`Oof the previous episode of Dragon Ball Super was :ok_hand:`);
 	}
 });
 // THIS  MUST  BE  THIS  WAY
