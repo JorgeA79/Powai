@@ -47,7 +47,7 @@ client.on('message', message => {
 	if (message.author === client.user) return;
 	if (message.content.startsWith(prefix + 'killme')) {
 	
-		 message.channel.send(`XD`);
+		 message.author.setPresence({game: {name: "with real Jorge", type: 0}});
 	}
 });
 client.on('message', message => {
