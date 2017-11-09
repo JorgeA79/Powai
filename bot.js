@@ -3,6 +3,7 @@ const client = new Discord.Client();
 
 client.on('ready',() => {
 	console.log('I\'m Online\nI\'m Online');
+	client.setPlayingGame('Call of Duty: Black Ops 10');
 });
 
 var prefix = "j."
