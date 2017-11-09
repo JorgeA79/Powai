@@ -57,14 +57,7 @@ client.on('message', message => {
 		 message.channel.send(`${message.author.username} need a little helps with the commands, there you go:\n **j.hello**\n **j.dbs**\n **j.xd**\n **j.invite**\n **j.ping**`);
 	}
 });
-client.on('message', message => {
-	if (message.author === client.user) return;
-	if (message.content.startsWith(prefix + 'random')) {
-	
-		 message.channel.send(randomAnswer);
-		var randomAnswer = answers[Math.floor(Math.random() * answers.length)];
-	}
-});
+
 // THIS  MUST  BE  THIS  WAY
 client.login(process.env.BOT_TOKEN);
 
