@@ -7,9 +7,9 @@ client.on('ready',() => {
 
 var prefix = "j."
 var answers = [
-   "Hey!",
-  "Howdy!",
-  "Hello There!",
+   "You got a **Charmander**, meh just a common mon :neutral_face: ",
+  "You got a **Charmeleon**, meh just a common mon :neutral_face:",
+  "You got a **Charizard**, Damn thats rare :hushed: ",
   "Wotcha!",
   "Alright gov'nor!"	
 ]
@@ -46,7 +46,7 @@ client.on('message', message => {
 });
 client.on('message', message => {
 	if (message.author === client.user) return;
-	if (message.content.startsWith(prefix + 'random')) {
+	if (message.content.startsWith(prefix + 'mon')) {
 		
 	var randomAnswer = answers[Math.floor(Math.random() * answers.length)];
 		 message.channel.send(randomAnswer);
