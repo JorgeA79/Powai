@@ -31,7 +31,7 @@ client.on('message', message => {
 	if (message.author === client.user) return;
 	if (message.content.startsWith(prefix + 'help')) {
 	
-		 message.channel.send(`${message.author.username.mention()} need a little helps with the commands, there you go:`);
+		 message.channel.send(`${message.author.username} need a little helps with the commands, there you go:`);
 	}
 });
 // THIS  MUST  BE  THIS  WAY
