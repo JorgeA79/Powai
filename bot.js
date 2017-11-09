@@ -7,7 +7,7 @@ client.on('ready',() => {
 
 var prefix = "j."
 var answers = [
-   "Hey",
+   "http://i0.kym-cdn.com/photos/images/newsfeed/001/217/729/f9a.jpg",
   "Howdy",
   "Hello There",
   "Wotcha",
