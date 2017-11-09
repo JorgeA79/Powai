@@ -12,7 +12,10 @@ var answers = [
   "${message.author.username} You got a **Venasaur**, Damn thats rare :hushed: ",
    "${message.author.username} You got a **Charmander**, meh just a common mon :neutral_face: ",
   "${message.author.username} You got a **Charmeleon**, meh just a common mon :neutral_face:",
-  "${message.author.username} You got a **Charizard**, Damn thats rare :hushed: "	
+  "${message.author.username} You got a **Charizard**, Damn thats rare :hushed: ",	
+	   "${message.author.username} You got a **Squirtle**, meh just a common mon :neutral_face: ",
+  "${message.author.username} You got a **Wartortle**, meh just a common mon :neutral_face:",
+  "${message.author.username} You got a **Blastoise**, Damn thats rare :hushed: "
 ]
 
 client.on('message', message => {
