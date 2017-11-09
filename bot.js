@@ -6,7 +6,7 @@ client.on('ready',() => {
 });
 
 var prefix = "j."
-var embed = new Discord.RichEmbed();
+
 client.on('message', message => {
 	if (message.author === client.user) return;
 	if (message.content.startsWith(prefix + 'ping')) {
@@ -26,7 +26,7 @@ client.on('message', message => {
 	if (message.content.startsWith(prefix + 'dbs')) {
 	
 		 message.channel.send(`Oof the previous episode of Dragon Ball Super was :ok_hand:`);
-		embed.setImage(https://78.media.tumblr.com/3d8158abe6e24a2aa329150abbdd4e84/tumblr_o5t0uaadg91uuj1vto1_500.gif", 500, 281);
+		
 	}
 });
 client.on('message', message => {
