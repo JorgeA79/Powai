@@ -46,8 +46,6 @@ client.on('message', message => {
 	
 		var randomAnswer = answers[Math.floor(Math.random() * answers.length)];
 		 message.channel.send(randomAnswer);
-		message.channel.sendMessage("some text", {
-    file: randomAnswer
 });
 	}
 });
