@@ -2,8 +2,7 @@ const Discord = require('discord.js');
 const client = new Discord.Client();
 
 client.on('ready',() => {
-
-	client.setPlayingGame('Call of Duty: Black Ops 10');
+	console.log('I\'m Online\nI\'m Online');
 });
 
 var prefix = "j."
