@@ -10,7 +10,7 @@ client.on('message', message => {
 	if (message.author === client.user) return;
 	if (message.content.startsWith(prefix + 'ping')) {
 	
-		 message.channel.send(`Pong!:ping_pong:  \`${Date.now() - message.createdTimestamp} ms\``);
+		 message.channel.send(`Pong! :ping_pong:  \`${Date.now() - message.createdTimestamp} ms\``);
 	}
 });
 
