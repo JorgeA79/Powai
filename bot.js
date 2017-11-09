@@ -51,13 +51,6 @@ client.on('message', message => {
 	}
 });
 client.on('message', message => {
-  // If the message is "what is my avatar"
-  if (message.content === 'avatar {
-    // Send the user's avatar URL
-    message.reply(message.author.displayAvatarURL());
-  }
-});
-client.on('message', message => {
 	if (message.author === client.user) return;
 	if (message.content.startsWith(prefix + 'invite')) {
 	
