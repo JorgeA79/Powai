@@ -1,28 +1,17 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
 
-client.on('ready', () => {
-    console.log('I am ready!');
+client.on('ready',() => {
+	console.log('I\'m Online\nI\'m Online');
 });
 
-var commands = {
-    hello: 'hello',
-    xd: 'xd',
-    uvuvuvuvuvuvuvu: 'I dont understand can you repeat!! :hushed:'
-};
-
+var prefix = "~"
 client.on('message', message => {
-    if (message.content.substr(0, 1) !== ',') {
-        return;
-    }
-    for (var i in commands) {
-        if (message.content === ',' + commands[i]) {
-            break;
-        }
-    }
-    message.reply(commands[i]);
+	if (message.author === client.user) return;
+	if (message.content.startsWith(prefix + 'ping')) {
+		message.channel.sendMessage('pong');
+	}
 });
-
 
 
 // THIS  MUST  BE  THIS  WAY
