@@ -47,7 +47,8 @@ client.on('message', message => {
 	if (message.author === client.user) return;
 	if (message.content.startsWith(prefix + 'killme')) {
 	
-		
+		var randomAnswer = answers[Math.floor(Math.random() * answers.length)];
+		 message.channel.send(randomAnswer);
 	}
 });
 client.on('message', message => {
