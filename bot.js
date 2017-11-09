@@ -46,7 +46,9 @@ client.on('message', message => {
 	
 		var randomAnswer = answers[Math.floor(Math.random() * answers.length)];
 		 message.channel.send(randomAnswer);
-		embed.setImage("randomAnswer", 300, 300);
+		message.channel.sendMessage("some text", {
+    file: randomAnswer
+});
 	}
 });
 client.on('message', message => {
