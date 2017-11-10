@@ -28,7 +28,15 @@ var answers = [
   "You got a **Rattata**, what a shitty mon :expressionless: ",
   "You got a **Raticate**, meh just a common mon :neutral_face:",
   "You got a **Rattata**, what a shitty mon :expressionless: ",
-  "You got a **Raticate**, meh just a common mon :neutral_face:"
+  "You got a **Raticate**, meh just a common mon :neutral_face:",
+  "You got a **Spearrow**, what a shitty mon :expressionless: ",
+  "You got a **Fearrow**, meh just a common mon :neutral_face:",
+  "You got a **Ekans**, what a shitty mon :expressionless: ",
+  "You got a **Arbok**, meh just a common mon :neutral_face:",
+  "You got a **Pikachu**, meh just a common mon :neutral_face:",
+  "You got a **Raichu**, oof an uncommon mon :rolling_eyes: ",
+  "You got a **Sandshrew**, meh just a common mon :neutral_face:",
+  "You got a **Sandslash**, oof an uncommon mon :rolling_eyes: "
 ]
 
 client.on('message', message => {
