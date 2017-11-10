@@ -2,7 +2,7 @@ const Discord = require('discord.js');
 const client = new Discord.Client();
 
 client.on('ready',() => {
-	   client.user.setPresence({game: {name: "with real Jorge | j.help", type: 0}});
+	   client.user.setPresence({game: {name: "with Jorge | j.help", type: 0}});
 });
 
 var prefix = "j."
