@@ -24,7 +24,9 @@ var answers = [
   "You got a **Beedrill**, oof an uncommon mon :rolling_eyes:  ",
   "You got a **Pidgey**, what a shitty mon :expressionless: ",
   "You got a **Pidgeotto**, meh just a common mon :neutral_face:",
-  "You got a **Pidgeot**, oof an uncommon mon :rolling_eyes:  "
+  "You got a **Pidgeot**, oof an uncommon mon :rolling_eyes:  ",
+  "You got a **Rattata**, what a shitty mon :expressionless: ",
+  "You got a **Raticate**, meh just a common mon :neutral_face:"
 ]
 
 client.on('message', message => {
