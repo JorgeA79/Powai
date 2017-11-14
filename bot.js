@@ -43,7 +43,6 @@ client.on('message', message => {
 	
 		 message.channel.send(`AAAAAAAAAAAAAAAAAAAAAAH`);
 		 message.channel.send(`https://media.giphy.com/media/3o6fJ1DYT1w2mvZyE0/giphy.gif`);
-		message.channel.send({embed: {
 const embed = new Discord.RichEmbed()
   .setTitle("This is your title, it can hold 256 characters")
   .setAuthor("Author Name", "https://i.imgur.com/lm8s41J.png")
