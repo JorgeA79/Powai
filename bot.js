@@ -43,6 +43,10 @@ client.on('message', message => {
 	
 		 message.channel.send(`AAAAAAAAAAAAAAAAAAAAAAH`);
 		 message.channel.send(`https://media.giphy.com/media/3o6fJ1DYT1w2mvZyE0/giphy.gif`);
+		message.channel.send({embed: {
+  color: 3447003,
+  url: "https://media.giphy.com/media/3o6fJ1DYT1w2mvZyE0/giphy.gif"
+}});
 	}
 });
 client.on('message', message => {
