@@ -52,7 +52,6 @@ const embed = new Discord.RichEmbed()
   .setColor(0x00AE86)
   .setImage("https://media.giphy.com/media/3o6fJ1DYT1w2mvZyE0/giphy.gif")
 
-  .addField("Super Sayayin 3", true);
 
   message.channel.send({embed});
 	}
