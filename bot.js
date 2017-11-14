@@ -44,9 +44,9 @@ client.on('message', message => {
 	
 const embed = new Discord.RichEmbed()
 
-  .setTitle("AAAAAAAAAAAAAAAAAAAAAAAAAAH")
+  .setTitle("AAAAAAAAAAAAAAAAAAAAAAAAAH")
 
-  .setColor(0x00AE86)
+  .setColor(0xF7FE2E)
   .setImage("https://media.giphy.com/media/3o6fJ1DYT1w2mvZyE0/giphy.gif")
 
 
