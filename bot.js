@@ -6,38 +6,6 @@ client.on('ready',() => {
 });
 
 var prefix = "j."
-var answers = [
-   "You got a **Bulbasaur**, meh just a common mon :neutral_face: ",
-  "You got an **Ivysaur**, meh just a common mon :neutral_face:",
-  "You got a **Venasaur**, Damn thats rare :hushed: ",
-  "You got a **Charmander**, meh just a common mon :neutral_face: ",
-  "You got a **Charmeleon**, meh just a common mon :neutral_face:",
-  "You got a **Charizard**, Damn thats rare :hushed: ",	
-  "You got a **Squirtle**, meh just a common mon :neutral_face: ",
-  "You got a **Wartortle**, meh just a common mon :neutral_face:",
-  "You got a **Blastoise**, Damn thats rare :hushed: ",
-  "You got a **Cartepie**, what a shitty mon :expressionless: ",
-  "You got a **Metapod**, what a shitty mon :expressionless:",
-  "You got a **Buterfree**, oof an uncommon mon :rolling_eyes:  ",
-  "You got a **Weedle**, what a shitty mon :expressionless: ",
-  "You got a **Kakunaa**, what a shitty mon :expressionless:",
-  "You got a **Beedrill**, oof an uncommon mon :rolling_eyes:  ",
-  "You got a **Pidgey**, what a shitty mon :expressionless: ",
-  "You got a **Pidgeotto**, meh just a common mon :neutral_face:",
-  "You got a **Pidgeot**, oof an uncommon mon :rolling_eyes:  ",
-  "You got a **Rattata**, what a shitty mon :expressionless: ",
-  "You got a **Raticate**, meh just a common mon :neutral_face:",
-  "You got a **Rattata**, what a shitty mon :expressionless: ",
-  "You got a **Raticate**, meh just a common mon :neutral_face:",
-  "You got a **Spearrow**, what a shitty mon :expressionless: ",
-  "You got a **Fearrow**, meh just a common mon :neutral_face:",
-  "You got a **Ekans**, what a shitty mon :expressionless: ",
-  "You got a **Arbok**, meh just a common mon :neutral_face:",
-  "You got a **Pikachu**, meh just a common mon :neutral_face:",
-  "You got a **Raichu**, oof an uncommon mon :rolling_eyes: ",
-  "You got a **Sandshrew**, meh just a common mon :neutral_face:",
-  "You got a **Sandslash**, oof an uncommon mon :rolling_eyes: "
-]
 
 client.on('message', message => {
 	if (message.author === client.user) return;
@@ -69,15 +37,7 @@ client.on('message', message => {
 		 message.channel.send(`XD`);
 	}
 });
-client.on('message', message => {
-	if (message.author === client.user) return;
-	if (message.content.startsWith(prefix + 'mon')) {
-		
-	var randomAnswer = answers[Math.floor(Math.random() * answers.length)];
-		 message.channel.send(randomAnswer);
-		
-	}
-});
+
 client.on('message', message => {
 	if (message.author === client.user) return;
 	if (message.content.startsWith(prefix + 'wait')) {
