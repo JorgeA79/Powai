@@ -44,12 +44,7 @@ client.on('message', message => {
 	
 const embed = new Discord.RichEmbed()
 
-  .setTitle("AAAAAAAAAAAAAAAAAAAAAAAAAAAAAH")
-  .setAuthor("JorgeBot", "https://pm1.narvii.com/5825/ac6be55bb9d7d452245f5b76ea0aa50ad4de9e77_hq.jpg")
-  /*
-   * Alternatively, use "#00AE86", [0, 174, 134] or an integer number.
-   */
-  .setColor(0x00AE86)
+ 
   .setImage("https://media.giphy.com/media/3o6fJ1DYT1w2mvZyE0/giphy.gif")
 
 
