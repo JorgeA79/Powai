@@ -80,6 +80,13 @@ client.on('message', message => {
 });
 client.on('message', message => {
 	if (message.author === client.user) return;
+	if (message.content.startsWith(prefix + 'mimikkips den owner?')) {
+	
+		 message.channel.send(`Tetsuo ofc tho `);
+	}
+});
+client.on('message', message => {
+	if (message.author === client.user) return;
 	if (message.content.startsWith(prefix + 'help')) {
 	
 		 message.channel.send(`${message.author.username} you need a little help with the commands, there you go:\n **j.hello**\n **j.dbs**\n **j.ssj**\n **j.xd**\n **j.wait**\n **j.invite**\n **j.ping**`);
