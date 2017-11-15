@@ -92,7 +92,7 @@ client.on('message', message => {
    */
   .setColor(0x7401DF)
   .setDescription("This Pokemon is known to be a ghostly spirit that guides other ghost Pokemon and humans. It is rumored that Ghoulanterns are supposedly dead souls of the Firebreathers that roamed the Mirren region.")
-  .setImage("https://cdn.discordapp.com/attachments/372491249221107714/380467848193114122/unknown.png")
+  .setImage("https://cdn.discordapp.com/attachments/372491249221107714/380470852073816065/unknown.png")
 .addField("Types:",
     "Ghost/Fire.")
   .setTimestamp()
