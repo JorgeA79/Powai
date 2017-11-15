@@ -6,7 +6,7 @@ client.on('ready',() => {
 });
 
 var prefix = "j."
-var int = 0
+
 client.on('message', message => {
 	if (message.author === client.user) return;
 	if (message.content.startsWith(prefix + 'ping')) {
@@ -53,13 +53,7 @@ const embed = new Discord.RichEmbed()
   message.channel.send({embed});
 	}
 });
-client.on('message', message => {
-	if (message.author === client.user) return;
-	if (message.content.startsWith(prefix + 'ssg')) {
-	
-	  message.channel.send(int);
 
-});
 client.on('message', message => {
 	if (message.author === client.user) return;
 	if (message.content.startsWith(prefix + 'wait')) {
