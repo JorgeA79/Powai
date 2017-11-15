@@ -92,7 +92,7 @@ client.on('message', message => {
    * Alternatively, use "#00AE86", [0, 174, 134] or an integer number.
    */
   .setColor(0x7401DF)
-  .setDescription("This Pokemon loves to play and make stuff out of snow, it uses it's psychic abilities to attack any trespassers who try to harm them and will do anything to protect it's trainer")
+  .setDescription("This Pokemon loves to play and make stuff out of snow, it uses it's psychic abilities to attack any trespassers who try to harm them and will do anything to protect it's trainer.")
   .setImage("https://cdn.discordapp.com/attachments/372491249221107714/380474283324866561/unknown.png")
 .addField("Types:",
     "Psychic/Ice.")
