@@ -53,22 +53,7 @@ const embed = new Discord.RichEmbed()
   message.channel.send({embed});
 	}
 });
-client.on('message', message => {
-	if (message.author === client.user) return;
-	if (message.content.startsWith(prefix + 'ssj2')) {
-	
-	
-const embed1 = new Discord.RichEmbed()
 
-  .setTitle("AAAAAAAAAAAAAAAAAAAAAAAAAH")
-
-  .setColor(0xF7FE2E)
-  .setImage("https://media.giphy.com/media/xT0xeBv3H82J1cyJHi/giphy.gif")
-
-
-  message.channel.send({embed1});
-	}
-});
 client.on('message', message => {
 	if (message.author === client.user) return;
 	if (message.content.startsWith(prefix + 'wait')) {
