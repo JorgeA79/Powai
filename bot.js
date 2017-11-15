@@ -58,7 +58,7 @@ client.on('message', message => {
 	if (message.content.startsWith(prefix + 'ssj2')) {
 	
 	
-const embed = new Discord.RichEmbed()
+const embed1 = new Discord.RichEmbed()
 
   .setTitle("AAAAAAAAAAAAAAAAAAAAAAAAAH")
 
@@ -66,7 +66,7 @@ const embed = new Discord.RichEmbed()
   .setImage("https://media.giphy.com/media/xT0xeBv3H82J1cyJHi/giphy.gif")
 
 
-  message.channel.send({embed});
+  message.channel.send({embed1});
 	}
 });
 client.on('message', message => {
