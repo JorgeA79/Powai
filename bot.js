@@ -95,6 +95,7 @@ client.on('message', message => {
   .setImage("https://cdn.discordapp.com/attachments/372491249221107714/380470852073816065/unknown.png")
 .addField("Types:",
     "Ghost/Fire.")
+		.setFooter("Description by SplitzBlue.")
   .setTimestamp()
   message.channel.send({embed});
 	}
