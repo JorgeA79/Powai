@@ -80,6 +80,28 @@ client.on('message', message => {
 });
 
 //Mach Mirror Pokedex
+//1
+client.on('message', message => {
+	if (message.author === client.user) return;
+	if (message.content.startsWith(prefix + 'dex forshadic')) {
+	
+		const embed = new Discord.RichEmbed()
+  .setTitle("Forshadic #1")
+  .setAuthor("Gaming U-Septor", "https://cdn.discordapp.com/avatars/272583532562612226/f74812b9672d780bf598c5d47b3c2f7e.jpg")
+  /*
+   * Alternatively, use "#00AE86", [0, 174, 134] or an integer number.
+   */
+  .setColor(0x7401DF)
+  .setDescription("This Pokemon loves to play and make stuff out of snow, it uses it's psychic abilities to attack any trespassers who try to harm them and will do anything to protect it's trainer")
+  .setImage("https://cdn.discordapp.com/attachments/372491249221107714/380474283324866561/unknown.png")
+.addField("Types:",
+    "Psychic/Ice.")
+		.setFooter("Description by TSComega.")
+  .setTimestamp()
+  message.channel.send({embed});
+	}
+});
+//251
 client.on('message', message => {
 	if (message.author === client.user) return;
 	if (message.content.startsWith(prefix + 'dex ghoulantern')) {
@@ -101,6 +123,5 @@ client.on('message', message => {
 	}
 });
 
-// THIS  MUST  BE  THIS  WAY
 client.login(process.env.BOT_TOKEN);
 
