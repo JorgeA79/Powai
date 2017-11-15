@@ -6,7 +6,7 @@ client.on('ready',() => {
 });
 
 var prefix = "j."
-
+var int = 0
 client.on('message', message => {
 	if (message.author === client.user) return;
 	if (message.content.startsWith(prefix + 'ping')) {
