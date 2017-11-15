@@ -84,7 +84,7 @@ client.on('message', message => {
 	if (message.author === client.user) return;
 	if (message.content.startsWith(prefix + 'dex ghoulantern')) {
 	
-		const ghoulantern = new Discord.RichEmbed()
+		const embed = new Discord.RichEmbed()
   .setTitle("This is your title, it can hold 256 characters")
   .setAuthor("Author Name", "https://i.imgur.com/lm8s41J.png")
   /*
@@ -112,7 +112,7 @@ client.on('message', message => {
   .addBlankField(true)
   .addField("Inline Field 3", "You can have a maximum of 25 fields.", true);
 
-  message.channel.send({ghoulantern});
+  message.channel.send({embed});
 	}
 });
 
