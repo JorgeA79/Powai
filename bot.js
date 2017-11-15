@@ -39,7 +39,7 @@ client.on('message', message => {
 });
 client.on('message', message => {
 	if (message.author === client.user) return;
-	if (message.content.startsWith(prefix + 'ssj3')) {
+	if (message.content.startsWith(prefix + 'ssj')) {
 	
 	
 const embed = new Discord.RichEmbed()
