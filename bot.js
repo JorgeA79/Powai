@@ -39,7 +39,7 @@ client.on('message', message => {
 });
 client.on('message', message => {
 	if (message.author === client.user) return;
-	if (message.content.startsWith(prefix + 'ssj')) {
+	if (message.content.startsWith(prefix + 'ssj3')) {
 	
 	
 const embed = new Discord.RichEmbed()
@@ -48,6 +48,22 @@ const embed = new Discord.RichEmbed()
 
   .setColor(0xF7FE2E)
   .setImage("https://media.giphy.com/media/3o6fJ1DYT1w2mvZyE0/giphy.gif")
+
+
+  message.channel.send({embed});
+	}
+});
+client.on('message', message => {
+	if (message.author === client.user) return;
+	if (message.content.startsWith(prefix + 'ssj2')) {
+	
+	
+const embed = new Discord.RichEmbed()
+
+  .setTitle("AAAAAAAAAAAAAAAAAAAAAAAAAH")
+
+  .setColor(0xF7FE2E)
+  .setImage("https://media.giphy.com/media/xT0xeBv3H82J1cyJHi/giphy.gif")
 
 
   message.channel.send({embed});
