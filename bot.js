@@ -85,7 +85,7 @@ client.on('message', message => {
 	if (message.content.startsWith(prefix + 'dex ghoulantern')) {
 	
 		const embed = new Discord.RichEmbed()
-  .setTitle("Ghoulantern")
+  .setTitle("Ghoulantern #251")
   .setAuthor("ArceusTube", "https://cdn.discordapp.com/avatars/350101239364714508/14cf7783293a82caf8655b81bf60add5.jpg")
   /*
    * Alternatively, use "#00AE86", [0, 174, 134] or an integer number.
@@ -93,9 +93,7 @@ client.on('message', message => {
   .setColor(0x7401DF)
   .setDescription("This Pokemon is known to be a ghostly spirit that guides other ghost Pokemon and humans. It is rumored that Ghoulanterns are supposedly dead souls of the Firebreathers that roamed the Mirren region.")
   .setImage("https://cdn.discordapp.com/attachments/372491249221107714/380467848193114122/unknown.png")
-  /*
-   * Takes a Date object, defaults to current date.
-   */
+ .addField("Ghost/Fire.", true)
   .setTimestamp()
   message.channel.send({embed});
 	}
