@@ -80,6 +80,14 @@ client.on('message', message => {
 });
 
 //Mach Mirror Pokedex
+//List
+client.on('message', message => {
+	if (message.author === client.user) return;
+	if (message.content.startsWith(prefix + 'dex list')) {
+	
+		 message.channel.send(`${message.author.username} here's the dex. \n**Forshadic #1**\n **Psychind #2**\n **Foligsnow #3**\n**Kascal #4**\n **Skaloogan #5**\n **Kingasrush #6**`);
+	}
+});
 //1
 client.on('message', message => {
 	if (message.author === client.user) return;
@@ -96,6 +104,27 @@ client.on('message', message => {
   .setImage("https://cdn.discordapp.com/attachments/372491249221107714/380474283324866561/unknown.png")
 .addField("Types:",
     "Psychic/Ice.")
+		.setFooter("Description by TSComega.")
+  .setTimestamp()
+  message.channel.send({embed});
+	}
+});
+//4
+client.on('message', message => {
+	if (message.author === client.user) return;
+	if (message.content.startsWith(prefix + 'dex kascal')) {
+	
+		const embed = new Discord.RichEmbed()
+  .setTitle("Kascal #4")
+  .setAuthor("Gaming U-Septor", "https://cdn.discordapp.com/avatars/272583532562612226/f74812b9672d780bf598c5d47b3c2f7e.jpg")
+  /*
+   * Alternatively, use "#00AE86", [0, 174, 134] or an integer number.
+   */
+  .setColor(0x7401DF)
+  .setDescription("The Thief Pokemon, this is one of the cutest pokemon in the mirren region and it uses it's cuteness to decieve people and steal. it is known to steal items, money and sometimes even trainer cards! and it sometimes even steals from its own trainer!")
+  .setImage("https://cdn.discordapp.com/attachments/372491249221107714/380477611618467852/unknown.png")
+.addField("Types:",
+    "Fighting.")
 		.setFooter("Description by TSComega.")
   .setTimestamp()
   message.channel.send({embed});
