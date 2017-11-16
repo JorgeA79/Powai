@@ -83,7 +83,7 @@ client.on('message', message => {
 	if (message.author === client.user) return;
 	if (message.content.startsWith(prefix + 'dex help')) {
 	
-		 message.author.send(`${message.author.username} you need a little help with the commands, there you go:\n **j.dex (Mach Mirror Fakemon)**\n **j.dex list**`);
+		 message.author.send(`${message.author.username} you need a little help with dex commands, there you go:\n **-j.dex (Mach Mirror Fakemon)**\n **-j.dex list**`);
 	 message.channel.send(`${message.author.username} message sent :mailbox:`)
 	}
 });
