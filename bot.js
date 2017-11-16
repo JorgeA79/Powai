@@ -103,7 +103,7 @@ client.on('message', message => {
 	
 		const embed = new Discord.RichEmbed()
   .setTitle("Forshadic #1")
-  .setAuthor("Gaming U-Septor", "https://cdn.discordapp.com/avatars/272583532562612226/f74812b9672d780bf598c5d47b3c2f7e.jpg")
+  .setAuthor("Artie", "https://cdn.discordapp.com/avatars/310089392230498315/483a341d8a0fd9eef1908870ba922f40.jpg")
   /*
    * Alternatively, use "#00AE86", [0, 174, 134] or an integer number.
    */
