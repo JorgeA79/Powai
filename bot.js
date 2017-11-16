@@ -75,7 +75,7 @@ client.on('message', message => {
 	if (message.author === client.user) return;
 	if (message.content.startsWith(prefix + 'help')) {
 	
-		 message.author.send(`${message.author.username} you need a little help with the commands, there you go:\n **j.hello**\n **j.dbs**\n **j.ssj**\n **j.xd**\n **j.wait**\n **j.invite**\n **j.ping**`);
+		 message.author.send(`${message.author.username} you need a little help with the commands, there you go:\n **j.hello**\n **j.dbs**\n **j.ssj**\n **j.dex help**\n **j.xd**\n **j.wait**\n **j.invite**\n **j.ping**`);
 	 message.channel.send(`${message.author.username} message sent :mailbox:`)
 	}
 });
