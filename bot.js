@@ -93,7 +93,7 @@ client.on('message', message => {
 	if (message.author === client.user) return;
 	if (message.content.startsWith(prefix + 'dex list')) {
 	
-		 message.channel.send(`${message.author.username} here's the dex. \n**-Forshadic #1**\n **-Psychind #2**\n **-Foligsnow #3**\n**-Kascal #4**\n **-Skaloogan #5**\n **-Kingasrush #6**\n**-Ghoulantern #251**`);
+		 message.channel.send(`${message.author.username} here's the dex. \n**-Forshadic #1**\n **-Psychind #2**\n **-Foligsnow #3**\n**-Kascal #4**\n **-Skaloogan #5**\n **-Kingasrush #6**\n **-Pterark #41**\n **-Pteravolt #42**\n**-Ghoulantern #251**`);
 	}
 });
 //1
@@ -134,6 +134,48 @@ client.on('message', message => {
 .addField("Types:",
     "Fighting.")
 		.setFooter("Description by TSComega.")
+  .setTimestamp()
+  message.channel.send({embed});
+	}
+});
+//41
+client.on('message', message => {
+	if (message.author === client.user) return;
+	if (message.content.startsWith(prefix + 'dex pterark')) {
+	
+		const embed = new Discord.RichEmbed()
+  .setTitle("Pterark #41")
+  .setAuthor("Gaming U-Septor", "https://cdn.discordapp.com/avatars/272583532562612226/f74812b9672d780bf598c5d47b3c2f7e.jpg")
+  /*
+   * Alternatively, use "#00AE86", [0, 174, 134] or an integer number.
+   */
+  .setColor(0x7401DF)
+  .setDescription("Its eyes are too sensitives to sunlight, thats why it spends most of its time in its nest. Its wings arent developed enough for it to fly, and its legs are too short for it to run.")
+  .setImage("https://cdn.discordapp.com/attachments/372491249221107714/380930829872005131/unknown.png")
+.addField("Types:",
+    "Flying/Rock.")
+		.setFooter("Description by Gaming U-Septor.")
+  .setTimestamp()
+  message.channel.send({embed});
+	}
+});
+//42
+client.on('message', message => {
+	if (message.author === client.user) return;
+	if (message.content.startsWith(prefix + 'dex pteravolt')) {
+	
+		const embed = new Discord.RichEmbed()
+  .setTitle("Pteravolt #42")
+  .setAuthor("Gaming U-Septor", "https://cdn.discordapp.com/avatars/272583532562612226/f74812b9672d780bf598c5d47b3c2f7e.jpg")
+  /*
+   * Alternatively, use "#00AE86", [0, 174, 134] or an integer number.
+   */
+  .setColor(0x7401DF)
+  .setDescription("Although naturally passive, it will do anything to protect its nest. Scientists speculate that it was able to manipulate nearby clouds and use them to créate rain and massive thunderstorms.")
+  .setImage("https://cdn.discordapp.com/attachments/372491249221107714/380930922398089226/unknown.png")
+.addField("Types:",
+    "Flying/Rock.")
+		.setFooter("Description by Gaming U-Septor.")
   .setTimestamp()
   message.channel.send({embed});
 	}
