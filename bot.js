@@ -174,7 +174,7 @@ client.on('message', message => {
   .setDescription("Although naturally passive, it will do anything to protect its nest. Scientists speculate that it was able to manipulate nearby clouds and use them to créate rain and massive thunderstorms.")
   .setImage("https://cdn.discordapp.com/attachments/372491249221107714/380930922398089226/unknown.png")
 .addField("Types:",
-    "Flying/Rock.")
+    "Electric/Rock.")
 		.setFooter("Description by Gaming U-Septor.")
   .setTimestamp()
   message.channel.send({embed});
