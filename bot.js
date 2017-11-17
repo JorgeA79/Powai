@@ -171,7 +171,7 @@ client.on('message', message => {
    * Alternatively, use "#00AE86", [0, 174, 134] or an integer number.
    */
   .setColor(0x7401DF)
-  .setDescription("Although naturally passive, it will do anything to protect its nest. Scientists speculate that it was able to manipulate nearby clouds and use them to créate rain and massive thunderstorms.")
+  .setDescription("Although naturally passive, it will do anything to protect its nest. Scientists speculate that it was able to manipulate nearby clouds and use them to create rain and massive thunderstorms.")
   .setImage("https://cdn.discordapp.com/attachments/372491249221107714/380930922398089226/unknown.png")
 .addField("Types:",
     "Electric/Rock.")
