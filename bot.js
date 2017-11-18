@@ -145,7 +145,7 @@ client.on('message', message => {
 	
 		const embed = new Discord.RichEmbed()
   .setTitle("Foligsnow #3")
-  .setAuthor("Jorge Adolfo-", "https://cdn.discordapp.com/avatars/304357538101723137/699fc601494f622dce54c01bf3359ad3.jpg")
+  .setAuthor("Jorge Adolfo", "https://cdn.discordapp.com/avatars/304357538101723137/699fc601494f622dce54c01bf3359ad3.jpg")
   /*
    * Alternatively, use "#00AE86", [0, 174, 134] or an integer number.
    */
