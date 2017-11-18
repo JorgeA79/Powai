@@ -117,6 +117,27 @@ client.on('message', message => {
   message.channel.send({embed});
 	}
 });
+//2
+client.on('message', message => {
+	if (message.author === client.user) return;
+	if (message.content.startsWith(prefix + 'dex psychind')) {
+	
+		const embed = new Discord.RichEmbed()
+  .setTitle("Psychind #2")
+  .setAuthor("Artie", "https://cdn.discordapp.com/avatars/310089392230498315/483a341d8a0fd9eef1908870ba922f40.jpg")
+  /*
+   * Alternatively, use "#00AE86", [0, 174, 134] or an integer number.
+   */
+  .setColor(0x7401DF)
+  .setDescription("This is the evolution of forshadic, this pokemon loves to make snowballs and to throw them at people, it uses it's psychic abilities to protect it's trainer and makes snowmen to attack pokemon that attack it")
+  .setImage("https://cdn.discordapp.com/attachments/372491249221107714/381264180134543372/unknown.png")
+.addField("Types:",
+    "Psychic/Ice.")
+		.setFooter("Description by TSComega.")
+  .setTimestamp()
+  message.channel.send({embed});
+	}
+});
 //4
 client.on('message', message => {
 	if (message.author === client.user) return;
