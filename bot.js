@@ -259,7 +259,7 @@ client.on('message', message => {
   .setImage("https://cdn.discordapp.com/attachments/372491249221107714/381583800108580865/unknown.png")
 .addField("Types:",
     "Electric/Poison.")
-		.setFooter("Description by Jorge Adolfo. Design by Alice.")
+		.setFooter("Description by Jorge Adolfo. Art by Alice.")
   .setTimestamp()
   message.channel.send({embed});
 	}
