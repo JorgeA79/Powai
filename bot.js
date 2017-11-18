@@ -238,7 +238,7 @@ client.on('message', message => {
   .setImage("https://cdn.discordapp.com/attachments/372491249221107714/381574321992368129/unknown.png")
 .addField("Types:",
     "Electric/Rock.")
-		.setFooter("Description by Gaming U-Septor.")
+		.setFooter("Description by Gaming U-Septor. Left design by Alice")
   .setTimestamp()
   message.channel.send({embed});
 	}
