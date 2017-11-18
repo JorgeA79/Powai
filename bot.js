@@ -225,7 +225,7 @@ client.on('message', message => {
 //61
 client.on('message', message => {
 	if (message.author === client.user) return;
-	if (message.content.startsWith(prefix + 'dex pteravolt')) {
+	if (message.content.startsWith(prefix + 'dex parttiblow')) {
 	
 		const embed = new Discord.RichEmbed()
   .setTitle("Parttiblow #61")
