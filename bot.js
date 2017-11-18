@@ -235,10 +235,10 @@ client.on('message', message => {
    */
   .setColor(0x7401DF)
   .setDescription("The party bomb pokemon, the color of the lower half of its body indicates when it will explode, whoever, this Pokemons explosions are harmless, so it has a hard time defending itself.")
-  .setImage("https://cdn.discordapp.com/attachments/372491249221107714/381574321992368129/unknown.png")
+  .setImage("https://cdn.discordapp.com/attachments/372491249221107714/381575732075167754/unknown.png")
 .addField("Types:",
-    "Electric/Rock.")
-		.setFooter("Description by Gaming U-Septor. Left design by Alice")
+    "Dark/Fairy.")
+		.setFooter("Description by Gaming U-Septor.")
   .setTimestamp()
   message.channel.send({embed});
 	}
