@@ -138,6 +138,27 @@ client.on('message', message => {
   message.channel.send({embed});
 	}
 });
+//3
+client.on('message', message => {
+	if (message.author === client.user) return;
+	if (message.content.startsWith(prefix + 'dex foligsnow')) {
+	
+		const embed = new Discord.RichEmbed()
+  .setTitle("Foligsnow #3")
+  .setAuthor("Jorge Adolfo-", "https://cdn.discordapp.com/avatars/304357538101723137/699fc601494f622dce54c01bf3359ad3.jpg")
+  /*
+   * Alternatively, use "#00AE86", [0, 174, 134] or an integer number.
+   */
+  .setColor(0x7401DF)
+  .setDescription("Foligsnow are known for living in icy caves and high atop mountains. It's fur acts as an insulator so that it can protect itself from the harsh and cold Mirren winds.")
+  .setImage("https://cdn.discordapp.com/attachments/351931134764122113/381268709978931200/unknown.png")
+.addField("Types:",
+    "Psychic/Ice.")
+		.setFooter("Description by Splitzblue.")
+  .setTimestamp()
+  message.channel.send({embed});
+	}
+});
 //4
 client.on('message', message => {
 	if (message.author === client.user) return;
