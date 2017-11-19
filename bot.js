@@ -22,7 +22,16 @@ client.on('message', message => {
 		
 	}
 });
-
+client.on('message', message => {
+	if (message.author === client.user) return;
+	if (message.content.startsWith(prefix + 'play')) {
+	voiceChannel.join()
+  .then(connection => console.log('Connected!'))
+  .catch(console.error);
+		 message.channel.send(`joined`);
+		
+	}
+});
 
 client.on('message', message => {
 	if (message.author === client.user) return;
