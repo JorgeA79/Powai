@@ -24,6 +24,23 @@ client.on('message', message => {
 });
 client.on('message', message => {
 	if (message.author === client.user) return;
+	if (message.content.startsWith(prefix + 'play')) {
+	message.member.voiceChannel.join()
+        .then(connection => { // Connection is an instance of VoiceConnection
+          message.reply('I have successfully connected to the channel!');
+        })
+        .catch(console.log);
+		
+    } else {
+      message.reply('You need to join a voice channel first!');
+    }
+  }
+
+		
+	
+});
+client.on('message', message => {
+	if (message.author === client.user) return;
 	if (message.content.startsWith(prefix + 'dbs')) {
 	
 		 message.channel.send(`Oof the previous episode of Dragon Ball Super was :ok_hand:`);
