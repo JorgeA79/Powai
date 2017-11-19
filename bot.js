@@ -33,7 +33,7 @@ client.on('message', message => {
 		
     } else {
       message.reply('You need to join a voice channel first!');
-    }
+    
   }
 
 		
