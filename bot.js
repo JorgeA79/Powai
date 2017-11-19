@@ -243,6 +243,27 @@ client.on('message', message => {
   message.channel.send({embed});
 	}
 });
+//62
+client.on('message', message => {
+	if (message.author === client.user) return;
+	if (message.content.startsWith(prefix + 'dex lattishine')) {
+	
+		const embed = new Discord.RichEmbed()
+  .setTitle("Lattishine #62")
+  .setAuthor("Gaming U-Septor", "https://cdn.discordapp.com/avatars/272583532562612226/f74812b9672d780bf598c5d47b3c2f7e.jpg")
+  /*
+   * Alternatively, use "#00AE86", [0, 174, 134] or an integer number.
+   */
+  .setColor(0x7401DF)
+  .setDescription("The Late Night Pokemon, these pokemon are nocturnal, they hunt using the lights on it's torso to attract other pokemon. They're also known to be very loud.")
+  .setImage("https://cdn.discordapp.com/attachments/372491249221107714/381669313347584000/unknown.png")
+.addField("Types:",
+    "Dark/Fairy.")
+		.setFooter("Description by Gaming U-Septor.")
+  .setTimestamp()
+  message.channel.send({embed});
+	}
+});
 //75
 client.on('message', message => {
 	if (message.author === client.user) return;
