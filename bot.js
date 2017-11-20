@@ -62,8 +62,9 @@ client.on('message', message => {
 	if (message.content.startsWith(prefix + 'wait')) {
 		
 
-		 message.channel.send(`Wait\nWait\nWait `);
-		
+		 message.channel.send(`Wait`);
+		message.channel.send(`Wait`);
+		message.channel.send(`Wait`);
 	}
 });
 client.on('message', message => {
