@@ -195,7 +195,7 @@ client.on('message', message => {
    * Alternatively, use "#00AE86", [0, 174, 134] or an integer number.
    */
   .setColor(0x7401DF)
-  .setDescription("This pokemon is known for it's fighting abilities, it can punch a tree in  half with just one punch, they compete with one another for dominance")
+  .setDescription("This pokemon is known for it's fighting abilities, it can punch a tree in  half with just one punch, they compete with one another for dominance.")
   .setImage("https://cdn.discordapp.com/attachments/372491249221107714/382732193929363457/unknown.png")
 .addField("Types:",
     "Fighting.")
