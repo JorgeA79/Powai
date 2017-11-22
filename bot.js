@@ -183,6 +183,27 @@ client.on('message', message => {
   message.channel.send({embed});
 	}
 });
+//5
+client.on('message', message => {
+	if (message.author === client.user) return;
+	if (message.content.startsWith(prefix + 'dex skaloogan')) {
+	
+		const embed = new Discord.RichEmbed()
+  .setTitle("Skaloogan #5")
+  .setAuthor("Gaming U-Septor", "https://cdn.discordapp.com/avatars/272583532562612226/f74812b9672d780bf598c5d47b3c2f7e.jpg")
+  /*
+   * Alternatively, use "#00AE86", [0, 174, 134] or an integer number.
+   */
+  .setColor(0x7401DF)
+  .setDescription("This pokemon is known for it's fighting abilities, it can punch a tree in  half with just one punch, they compete with one another for dominance")
+  .setImage("https://cdn.discordapp.com/attachments/372491249221107714/382732193929363457/unknown.png")
+.addField("Types:",
+    "Fighting.")
+		.setFooter("Description by some people.")
+  .setTimestamp()
+  message.channel.send({embed});
+	}
+});
 //41
 client.on('message', message => {
 	if (message.author === client.user) return;
