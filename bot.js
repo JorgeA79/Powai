@@ -79,7 +79,7 @@ const embed = new Discord.RichEmbed()
 
   .setTitle("AAAAH KAAAAIOKEEN")
 
-  .setColor(0xF7FE2E)
+  .setColor(0x01DFD7)
   .setImage("https://media.giphy.com/media/3osBLqfVbQI0fx0oLe/giphy.gif")
 
 
@@ -114,7 +114,7 @@ client.on('message', message => {
 	if (message.author === client.user) return;
 	if (message.content.startsWith(prefix + 'help')) {
 	
-		 message.author.send(`${message.author.username} you need a little help with the commands, there you go:\n **-j.hello**\n **-j.dbs**\n **-j.ssj**\n **-j.dex help**\n **-j.xd**\n **-j.fact**\n **-j.wait**\n **-j.invite**\n **-j.ping**`);
+		 message.author.send(`${message.author.username} you need a little help with the commands, there you go:\n **-j.hello**\n **-j.dbs**\n **-j.ssj**\n **-j.ssgss**\n **-j.dex help**\n **-j.xd**\n **-j.fact**\n **-j.wait**\n **-j.invite**\n **-j.ping**`);
 	 message.channel.send(`${message.author.username} message sent :mailbox:`)
 	}
 });
