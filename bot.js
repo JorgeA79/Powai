@@ -36,15 +36,7 @@ client.on('message', message => {
 		
 	}
 });
-client.on('message', message => {
-	if (message.author === client.user) return;
-	if (message.content.startsWith(prefix + 'join')) {
-	
-		var voiceChannel = message.member.voiceChannel;
-		voiceChannel.join().then(connection =>{ENTER CODE HERE}).catch(err => console.log(err));
-		
-	}
-});
+
 
 client.on('message', message => {
 	if (message.author === client.user) return;
