@@ -70,7 +70,22 @@ const embed = new Discord.RichEmbed()
   message.channel.send({embed});
 	}
 });
+client.on('message', message => {
+	if (message.author === client.user) return;
+	if (message.content.startsWith(prefix + 'ssgss')) {
+	
+	
+const embed = new Discord.RichEmbed()
 
+  .setTitle("AAAAH KAAAAIOKEEN")
+
+  .setColor(0xF7FE2E)
+  .setImage("https://media.giphy.com/media/3osBLqfVbQI0fx0oLe/giphy.gif")
+
+
+  message.channel.send({embed});
+	}
+});
 client.on('message', message => {
 	if (message.author === client.user) return;
 	if (message.content.startsWith(prefix + 'wait')) {
