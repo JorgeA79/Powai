@@ -240,6 +240,27 @@ client.on('message', message => {
   message.channel.send({embed});
 	}
 });
+//26
+client.on('message', message => {
+	if (message.author === client.user) return;
+	if (message.content.startsWith(prefix + 'dex frigipup')) {
+	
+		const embed = new Discord.RichEmbed()
+  .setTitle("Frigipup #26")
+  .setAuthor("ChaoticK-9", "https://cdn.discordapp.com/avatars/318162956510560257/a26b3e8586cfdff7dae799a193f37100.jpg")
+  /*
+   * Alternatively, use "#00AE86", [0, 174, 134] or an integer number.
+   */
+  .setColor(0x7401DF)
+  .setDescription("Frigipup doesn't go near humans. Last contact was with its former owner, and it has iced it's vein and emotions went numb, it stays in harsh freezing climates near mountains.")
+  .setImage("https://cdn.discordapp.com/attachments/372491249221107714/385920864631128064/unknown.png")
+.addField("Types:",
+    "Ice/Dark.")
+		.setFooter("Description by ChaoticK-9.")
+  .setTimestamp()
+  message.channel.send({embed});
+	}
+});
 //41
 client.on('message', message => {
 	if (message.author === client.user) return;
@@ -320,6 +341,27 @@ client.on('message', message => {
 .addField("Types:",
     "Dark/Fairy.")
 		.setFooter("Description by Gaming U-Septor.")
+  .setTimestamp()
+  message.channel.send({embed});
+	}
+});
+//63
+client.on('message', message => {
+	if (message.author === client.user) return;
+	if (message.content.startsWith(prefix + 'dex abandound')) {
+	
+		const embed = new Discord.RichEmbed()
+  .setTitle("Abandound #63")
+  .setAuthor("ChaoticK-9", "https://cdn.discordapp.com/avatars/318162956510560257/a26b3e8586cfdff7dae799a193f37100.jpg")
+  /*
+   * Alternatively, use "#00AE86", [0, 174, 134] or an integer number.
+   */
+  .setColor(0x7401DF)
+  .setDescription("Abandoned by its former trainer, this Pokemon spends its days searching out for their true companion. It's said that a bond formed with Abandound is a bond that will never end.")
+  .setImage("https://cdn.discordapp.com/attachments/372491249221107714/385921094273597460/unknown.png")
+.addField("Types:",
+    "Dark.")
+		.setFooter("Description by ChaoticK-9.")
   .setTimestamp()
   message.channel.send({embed});
 	}
