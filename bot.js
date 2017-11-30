@@ -53,13 +53,7 @@ client.on('message', message => {
 		 message.channel.send(`XD`);
 	}
 });
-client.on('message', message => {
-	if (message.author === client.user) return;
-	if (message.content.startsWith(prefix + '.')) {
-	
-		 message.channel.send(`IT WAS JUST A PRANK!`);
-	}
-});
+
 client.on('message', message => {
 	if (message.author === client.user) return;
 	if (message.content.startsWith(prefix + 'ssj')) {
