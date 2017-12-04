@@ -96,10 +96,14 @@ client.on('message', message => {
 	if (message.author === client.user) return;
 	if (message.content.startsWith(prefix + 'wait')) {
 		
-
-		 message.channel.send(`Wait`);
+    if(message.member.roles.has(Members.id)) {
+          message.channel.send(`Wait`);
 		message.channel.send(`Wait`);
-		message.channel.send(`Wait`);
+		
+        } else {
+          message.channel.send(`Nope`);
+        }
+		
 	}
 });
 client.on('message', message => {
