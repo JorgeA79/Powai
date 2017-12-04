@@ -48,6 +48,14 @@ client.on('message', message => {
 });
 client.on('message', message => {
 	if (message.author === client.user) return;
+	if (message.content.startsWith(prefix + 'changenick')) {
+	
+		 client.setNickname({nick: message.content.replace('changeNick ', '')});
+		
+	}
+});
+client.on('message', message => {
+	if (message.author === client.user) return;
 	if (message.content.startsWith(prefix + 'xd')) {
 	
 		 message.channel.send(`XD`);
