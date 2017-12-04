@@ -50,14 +50,14 @@ client.on('message', message => {
 	if (message.author === client.user) return;
 	if (message.content.startsWith(prefix + 'xd')) {
 	
-		 message.channel.send(`Hey you can join Mach Mirror server in here :wink: \nhttps://discord.gg/98XKyK5`);
+		 message.channel.send(`XD`);
 	}
 });
 client.on('message', message => {
 	if (message.author === client.user) return;
 	if (message.content.startsWith(prefix + 'join')) {
 	
-		 message.channel.send(`XD`);
+		 message.channel.send(`Hey you can join Mach Mirror server in here :wink: \nhttps://discord.gg/98XKyK5`);
 	}
 });
 client.on('message', message => {
