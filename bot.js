@@ -50,7 +50,7 @@ client.on('message', message => {
 	if (message.author === client.user) return;
 	if (message.content.startsWith(prefix + 'changenick')) {
 	
-		 client.setNickname({nick: message.content.replace('j.changeNick ', '')});
+	
 		
 	}
 });
