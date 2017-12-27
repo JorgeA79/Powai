@@ -36,6 +36,14 @@ client.on('message', message => {
 		
 	}
 });
+client.on('message', message => {
+	if (message.author === client.user) return;
+	if (message.content.startsWith('did u like this story JorgeBot')) {
+	
+		 message.channel.send(`hell ye`);
+		
+	}
+});
 
 
 client.on('message', message => {
