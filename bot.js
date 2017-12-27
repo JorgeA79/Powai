@@ -38,9 +38,9 @@ client.on('message', message => {
 });
 client.on('message', message => {
 	if (message.author === client.user) return;
-	if (message.content.startsWith('did u like this story JorgeBot')) {
+	if (message.content.startsWith('u finally answer to me at first message')) {
 	
-		 message.channel.send(`hell ye`);
+		 message.channel.send(`welp i was bored`);
 		
 	}
 });
