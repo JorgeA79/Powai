@@ -36,14 +36,7 @@ client.on('message', message => {
 		
 	}
 });
-client.on('message', message => {
-	if (message.author === client.user) return;
-	if (message.content.startsWith('u finally answer to me at first message')) {
-	
-		 message.channel.send(`welp i was bored`);
-		
-	}
-});
+
 
 
 client.on('message', message => {
