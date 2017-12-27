@@ -48,9 +48,17 @@ client.on('message', message => {
 });
 client.on('message', message => {
 	if (message.author === client.user) return;
-	if (message.content.startsWith(prefix + 'changenick')) {
+	if (message.content.startsWith('welp even if u dont want ill do it')) {
 	
 	
+	 message.channel.send(`kk xd`);	
+	}
+});
+client.on('message', message => {
+	if (message.author === client.user) return;
+	if (message.content.startsWith('JorgeBot u ready for this?')) {
+	
+	 message.channel.send(`Hell na`);
 		
 	}
 });
