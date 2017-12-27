@@ -57,7 +57,7 @@ client.on('message', message => {
 
 client.on('message', message => {
 	if (message.author === client.user) return;
-	if (message.content.startsWith(did u like the story jorgebot')) {
+	if (message.content.startsWith('did u like the story jorgebot')) {
 	
 		 message.channel.send(`ye `);
 	}
