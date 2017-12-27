@@ -102,14 +102,7 @@ client.on('message', message => {
 		
 	}
 });
-client.on('message', message => {
-	if (message.author === client.user) return;
-	if (message.content.startsWith('his friend JorgeBot')) {
-		        message.channel.send(`was so handsome`);
-        
-		
-	}
-});
+
 client.on('message', message => {
 	if (message.author === client.user) return;
 	if (message.content.startsWith(prefix + 'fact')) {
