@@ -121,13 +121,8 @@ client.on('message', message => {
 		 message.channel.send(`Hey i cant join your server you know because i am a bot XD, but you can add me to your server in here:\nhttps://discordapp.com/api/oauth2/authorize?client_id=372862753154793472&scope=bot&permissions=1`);
 	}
 });
-client.on('message', message => {
-	if (message.author === client.user) return;
-	if (message.content.startsWith('.jorge')) {
-	
-		 message.channel.send(`https://pbs.twimg.com/media/C2qpgIvWQAAs5iq.jpg`);
-	}
-});
+
+
 client.on('message', message => {
 	if (message.author === client.user) return;
 	if (message.content.startsWith(prefix + 'help')) {
