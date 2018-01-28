@@ -83,6 +83,22 @@ const embed = new Discord.RichEmbed()
 });
 client.on('message', message => {
 	if (message.author === client.user) return;
+	if (message.content.startsWith(prefix + 'leak')) {
+	
+	
+const embed = new Discord.RichEmbed()
+ message.channel.send(`@everyone`);
+  .setTitle("Player's Official House Finished and improved 1st Leak")
+
+  .setColor(0xF7FE2E)
+  .setImage("https://imgur.com/a/MUqMK")
+
+
+  message.channel.send({embed});
+	}
+});
+client.on('message', message => {
+	if (message.author === client.user) return;
 	if (message.content.startsWith(prefix + 'ssgss')) {
 	
 	
@@ -95,6 +111,7 @@ const embed = new Discord.RichEmbed()
 
 
   message.channel.send({embed});
+		
 	}
 });
 client.on('message', message => {
