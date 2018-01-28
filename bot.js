@@ -85,9 +85,9 @@ client.on('message', message => {
 	if (message.author === client.user) return;
 	if (message.content.startsWith(prefix + 'leak')) {
 	
-	
+	 message.channel.send(`@everyone`);
 const embed = new Discord.RichEmbed()
- message.channel.send(`@everyone`);
+
   .setTitle("Player's Official House Finished and improved 1st Leak")
 
   .setColor(0xF7FE2E)
